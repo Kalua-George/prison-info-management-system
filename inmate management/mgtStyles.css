@@ -1,0 +1,186 @@
+/* Resetting margins and paddings */
+
+* {
+    font-size: medium;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: tahoma ;
+    scale: 0.999;
+}
+
+.add {
+    display: none;
+    margin-bottom: 20px;
+
+}
+
+.demo {
+    display: none;
+    margin: 20px;
+}
+
+.trans {
+    display: none;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+.view{
+    display: none;
+margin: 20px;
+}
+
+
+
+header {
+    background: #005112;
+    display: flex;
+    
+}
+
+img {
+    height: 50px;
+}
+
+h1 {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+h2 {
+    background-color: #005112;
+    text-align: center;
+    width: 80%;
+    border: #012909 1px solid;
+    margin-left: 50px;
+}
+
+/* The main section styles */
+.center {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+main {
+    margin-top: 2px;
+    background: #646565;
+    display: flex;
+}
+
+.aside {
+    background: #005112;
+    height: (100vh-100px)
+
+}
+
+nav {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #005112;
+}
+
+a {
+    margin: 20px;
+    padding: 5px;
+    background-color: #012909;
+    border-radius: 5px;
+}
+
+/* Form styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.Emergency, .inmateData, .pop, .pop-distr {
+    border: 1px solid #012909;
+    box-shadow: #ced1cf 1px 1px 1px 1px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Emergency{
+    background-color: #aab1ac;
+}
+
+.inmateData{
+    background-color: #bfefc9;
+}
+
+.fields {
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    background: #646565;
+    border-style: none;
+    border: 1px solid #012909;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    align-self: center;
+    padding: 5px;
+    background-color: #012909;
+}
+ input[type="submit"]:hover{
+    scale: 1.1;
+ }
+
+/* Population demographics section */
+h3 {
+    background: #005112;
+    align-self: center;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Chart canvas styles */
+canvas {
+    height:200px;
+    width:200px;
+    border: #012909 solid 1px;
+    margin: 10px;
+}
+
+/* Transfers page styles */
+table {
+    border-collapse: collapse;  
+}
+
+tr, td {
+    border: 1px solid #012909;
+    padding: 2px; 
+}
+
+thead {
+    background-color: #005112;
+}
+
+.trans1{
+    width:80%;
+    margin: 0,auto;
+}
+

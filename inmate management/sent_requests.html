@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENT REQUEST</title>
+</head>
+<body style="background-color: rgb(8, 56, 8);">
+   <div><!--the whole page-->
+        <div style="height: 50px; margin-top: 0px; border: solid rgb(246, 246, 246) 1px; display: flex; align-items: center;"><!--the top bar-->
+
+            <div style="width: 50px;"><!--The icon-->
+                <img src="icon.jpg" with="50px" height="50px" alt="The Prison icon" style="border-radius: 50%;">
+            </div>
+
+            <div style="width: 100px;"><!--The Text--> 
+                <p style="font-size: 30px; font-weight:bold; font-family: 'Courier New', Courier, monospace; color: white; text-align: center">PIMS</p>
+            </div>
+
+            <div style="width: 1200px;"><!--Visitation text-->
+                <p style="font-size: 30px; font-weight:bold; font-family: 'Courier New', Courier, monospace; color: white; text-align: center;">VISITATION FORM</p>
+            </div>
+
+        </div>
+
+        <div style="display: flex;"><!--Bottom part-->
+
+            <div style="margin-top:0px; border: solid rgb(246, 246, 246) 1px; width:300px; height: 570px;"><!--the left pane-->
+                   
+            </div>
+
+            <div style="margin-top:0px; border: solid rgb(246, 246, 246) 1px; width:1000px; height: 570px; background-color: antiquewhite;"><!--the work area-->
+
+            <div>
+                
+                    <div style="border: solid rgb(255, 255, 255) 2px; width: 990px; height: 550px; background-color: rgba(0, 204, 255, 0.621); border-radius:10%; display: flex"><!--the Vistor's details-->
+                        <div><p style=" font-size: 30px; border:solid white 2px; background-color: blueviolet; border-radius: 30%; margin-left: 50px; margin-top: 50px;">RQ1</p></div>
+                        <div style="font-weight: bold; margin-top: 55px; margin-left: 50px; font-size: 25px">
+                            <a href="approv.html">MPHATSO MNYENYEMBE</a>
+                        </div>  <hr style="border: 2px white solid"> 
+                        
+                        <div><p style=" font-size: 30px; border:solid white 2px; background-color: blueviolet; border-radius: 30%; margin-left: 50px; margin-top: 50px;">RQ2</p></div>
+                        <div style="font-weight: bold; margin-top: 55px; margin-left: 50px; font-size: 25px">
+                            <a href="approv.html">KENNEDY CASHTANDA</a>
+                        </div>
+
+                        
+
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+   </div> 
+
+   <script>
+    
+function workarea() {
+    // Create a new input element
+    var input = document.createElement("input");
+    input.type = "text";
+    input.name = "purpose";
+    input.placeholder = "Enter reason..."; // Optional placeholder
+
+    // Append the input element to the container
+    var container = document.getElementById("input-container");
+    container.appendChild(input);
+
+    // Optionally, add a line break after the input field for better layout
+    container.appendChild(document.createElement("br"));
+
+    // Check if the submit button already exists to avoid adding multiple submit buttons
+    if (!document.getElementById("submit-button")) {
+        // Create the submit button
+        var submitButton = document.createElement("button");
+        submitButton.type = "button";  // Or "submit" if inside a form
+        submitButton.id = "submit-button";
+        submitButton.innerHTML = "Submit";
+        submitButton.style.cssText = "border-radius:30%; background-color: aqua; font-size: 20px;";
+        
+        // Attach an event listener to handle the submission
+        submitButton.onclick = function() {
+            var inputValue = input.value;  // Get the value from the input box
+            alert("Submitted reason: " + inputValue);  // You can replace this with actual submission logic
+        };
+
+        // Append the submit button to the container
+        container.appendChild(submitButton);
+    }
+}
+
+</script>
+</body>
+
+</html>
