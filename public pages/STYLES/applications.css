@@ -3,12 +3,13 @@
 
 
 *{
-    font-family: Ubuntu;
+    font-family: tahoma;
     background-color: #eef2f3;
     margin: 0;
+    
     color: #05532d;
     font-weight: 150;
-    padding: 0
+    padding: 0;
 }
 
 header {
@@ -25,20 +26,26 @@ main {
     
 }
 
-h2, h3 {
-    color: #05532d;
+h2,h1, h3 {
+    text-align: center;
+    background:#05532d;
+    color: #c8d9d1;
 }
 
 
 /* Form Styles */
 form {
-
     background-color: #fff;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 0 auto;
+}
+
+.data{
+    display: flex;
+    width: 80%-100px;
 }
 
 .visit{
@@ -50,7 +57,8 @@ form {
     border-radius: 5px;
     border: 1px solid ;
     margin: 20px;
-    width: 400px;}
+    width:300px;
+}
 
 .form-group {
     display: flex;
@@ -95,12 +103,19 @@ textarea{
     margin-right: 5px;
 }
 
+.cent{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
 
 .click {
     padding: 10px 20px;
     background-color: #28a745;
     color: white;
     border: none;
+    margin: 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
