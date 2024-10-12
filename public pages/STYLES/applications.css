@@ -4,10 +4,10 @@
 
 *{
     font-family: tahoma;
-    background-color: #8f9798;
+    background-color: #ffffff;
     margin: 0;
     outline: none;
-    color: #fbfcfb;
+    color: #144314;
     font-weight: 150;
     padding: 0;
 }
@@ -37,7 +37,7 @@ h2,h1, h3 {
 
 /* Form Styles */
 form {
-    background-color:#8f9798;
+    background-color:#ffffff;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -60,6 +60,7 @@ form {
     border: 1px solid ;
     margin: 20px;
     width:300px;
+    box-shadow: #1443148f 1px 1px 3px 3px;
 }
 
 .form-group {
@@ -154,8 +155,9 @@ svg {
 
 /*log in page styles are put here.. they have been created for the page itself only*/
 .login{
-    background-color: #8f9798;
+    background-color: #c8e9ee;
     border: 1px solid #05532d;
+    box-shadow: #22602d77 1px 1px 3px 3px;
     margin: 10px;
     border-radius:5px;
     width: 300px;
@@ -170,7 +172,7 @@ svg {
 
 #pass,#username{
     border: none;
-    border: #fbfcfb 1px solid;
+    border: #28a745 1px solid;
     padding: 5px;
     border-radius: 5px;
 }

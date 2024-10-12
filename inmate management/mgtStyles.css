@@ -4,7 +4,7 @@
     font-weight: 150;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #144314;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -62,8 +62,12 @@ h2 {
 main {
     height: 100vh -100px;
     margin-top: 1px;
-    background: #646565;
+    background: #ffffff;
     display: flex;
+}
+
+a,h1,h2,h3,td{
+    color: #ffffff;
 }
 
 .aside {
@@ -109,18 +113,18 @@ form {
 .view,
 .pop-distr {
     border: 1px solid #012909;
-    box-shadow: #2f3431b6 1px 1px 1px 1px;
+    box-shadow: #1443148f 1px 1px 3px 3px;
     margin: 10px;
     padding: 5px;
     border-radius: 5px;
 }
 
 .Emergency {
-    background-color: #aab1ac;
+    background-color: #ffffff;
 }
 
 .inmateData {
-    background-color: #bfefc9;
+    background-color: #ffffff;
 }
 
 .fields {
@@ -129,15 +133,23 @@ form {
     display: flex;
     justify-content: space-between;
 }
+.field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+    width: 250px;
+}
 
-input {
-    background: #646565;
-    border: 1px solid #012909;
-    border-radius: 5px;
+input,select {
+    border: none;
+    background: #ffffff;
+    border-bottom: 1px solid #012909;
     padding: 5px;
 }
 
 input[type="submit"] {
+    color: #ffffff;
     width: 100px;
     align-self: center;
     padding: 5px;
@@ -186,6 +198,7 @@ thead {
     background-color: #005112;
 }
 
+
 .trans1 {
     width: 80%;
     margin: 0 auto; /* Changed to use proper auto margin */
@@ -200,7 +213,7 @@ thead {
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #012909; /* Border color */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    box-shadow: 0 2px 5px #010101; /* Shadow effect */
 }
 
 
